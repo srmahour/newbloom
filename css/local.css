@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
 
 body,html{font-family: 'Montserrat', sans-serif; font-size: 15px;}
+a:hover, a:active, a:focus, a{ outline: none; text-decoration: none;}
+
 
 .banner-area h1 {position: absolute;color: #fff;right: 20px;text-transform: uppercase;max-width: 590px;font-size: 2.5em;margin: 0;line-height: 1.3em; font-weight: 600;}
 .banner-area {position: relative;background: #000;overflow: hidden;}
@@ -40,7 +42,7 @@ body,html{font-family: 'Montserrat', sans-serif; font-size: 15px;}
 .flip-card:hover .flip-card-inner {transform: rotateY(180deg);}
 .service-item, .flip-card-back { position: absolute;top: 0; left: 0; height: 100%; width: 100%; -webkit-backface-visibility: hidden;backface-visibility: hidden;pointer-events: auto;}
 .flip-card-front {background-color: #bbb;color: black;}
-.flip-card-back{background: #538c3a;padding: 20px;border: 1px solid #fff;outline: 5px solid #538c3a;color: #fff; transform: rotateY(180deg);}
+.flip-card-back{background: #1b5d38;padding: 20px;border: 1px solid #fff;outline: 5px solid #1b5d38;color: #fff;transform: rotateY(180deg);}
 .flip-card-inner:after {content: ''; display: block; padding-bottom: 100%;}
 .flip-card-back ul {list-style: square;margin: 0; padding-left: 15px;}
 .flip-card-back ul li a {color: #fff;text-decoration: none;}
@@ -51,7 +53,7 @@ body,html{font-family: 'Montserrat', sans-serif; font-size: 15px;}
 .portfolio-area h2 {position: relative;font-size: 5rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #808080;font-weight: 700;}
 .portfolio-area h2:after {content: '';height: 1px;width: 50%;background: #dcdcdc;position: absolute;bottom: 0;margin: auto;left: 0;}
 .portfolio-area {background: #f5f5f5; padding-top: 50px;}
-.project-img a span {font-size: 14px;text-transform: uppercase;color: #fff;width: 14px;letter-spacing: 1px;display: block;text-align: center;word-break: break-word;line-height: 25px;}
+.project-img a span {font-size: 1em;text-transform: uppercase;color: #fff;width: 1em;letter-spacing: 1px;display: block;text-align: center;word-break: break-word;line-height: 25px;}
 .project-img a {text-decoration: none;width: 60px;background: #150101;text-align: center;display: flex;justify-content: center;height: 100%;padding: 10px 0;}
 .project-img {display: flex;flex-wrap: wrap;}
 .project-img img {max-width: calc(100% - 60px);}
@@ -82,3 +84,43 @@ body,html{font-family: 'Montserrat', sans-serif; font-size: 15px;}
 .testimonial blockquote {padding-left: 25px;max-width: calc(100% - 70px);}
 .testimonial blockquote h4 {margin: 15px 0 5px;}
 /*testimonial area end*/
+
+/*footer*/
+.upper-footer {background: #000;padding: 50px 0;color: #fff;}
+.footer-links img {margin: 0 0 10px;}
+.footer-links p {font-size: 1em;color: #909090;line-height: 24px;}
+.footer-links h4 {font-size: 16px;}
+.footer-links ul {list-style: none;padding: 0;margin: 0;}
+.footer-links ul li a {display: inline-block;font-size: 1em;color: #909090;line-height: 30px;transition: 0.3s ease;}
+.footer-links ul li a:hover {color: #fc8c24;}
+
+.lower-footer {background: #181818;color: #909090;padding: 10px 0;}
+.lower-footer p {font-size: 1em;margin: 0;}
+.social-meida ul {list-style: none;padding: 0;margin: 0;}
+.social-meida ul li {display: inline-block; padding: 0 10px;}
+.social-meida ul li a {color: #909090;transition: 0.3s ease;}
+.lower-footer ul li a i:before {font-size: 1em;}
+.social-meida ul li a:hover {color: #fc8c24;}
+.social-meida {text-align: right;}
+
+.footer-links ul li:first-child i:before {font-size: 30px;}
+.footer-links ul li i {position: absolute;left: -40px;text-align: center;width: 35px;top: 0;}
+.footer-links ul li {position: relative;}
+.footer-links ul li i:before {font-size: 18px; color: #999;}
+
+/*end*/
+
+
+/*blogs*/
+.blog-content ul {list-style: none;padding: 10px 0;margin: 0;}
+.blog-content ul li {display: inline-block;font-size: 1em;color: #fc8c24;padding: 0 10px 0 0;}
+.blog-content ul li a {color: #909090;}
+.blog-content h5 {font-size: 1.3em;font-weight: 700;}
+.blog-content p {line-height: 26px;font-size: 1em;color: #000000;}
+.blog-content {padding: 10px 20px;}
+.blog{-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);border: 0; border-radius: .25rem; margin: 20px 0;}
+.blog-img img {width: 100%; -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);-webkit-border-radius: .25rem;border-radius: .25rem; margin-top: -20px;}
+.blog-img {padding: 0 15px;}
+.blog-section {padding: 30px 0;}
+.blog-section h2 {position: relative;font-size: 5rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #808080;font-weight: 700;margin-bottom:20px}
+/*end*/
