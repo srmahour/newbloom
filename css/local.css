@@ -50,7 +50,7 @@ a:hover, a:active, a:focus, a{ outline: none; text-decoration: none;}
   /*end*/
 
 /*portfolio area*/ 
-.portfolio-area h2 {position: relative;font-size: 5rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #808080;font-weight: 700;}
+.portfolio-area h2 {position: relative;font-size: 5rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #000000;font-weight: 700;}
 .portfolio-area h2:after {content: '';height: 1px;width: 50%;background: #dcdcdc;position: absolute;bottom: 0;margin: auto;left: 0;}
 .portfolio-area {background: #f5f5f5; padding-top: 50px;}
 .project-img a span {font-size: 1em;text-transform: uppercase;color: #fff;width: 1em;letter-spacing: 1px;display: block;text-align: center;word-break: break-word;line-height: 25px;}
@@ -66,7 +66,7 @@ a:hover, a:active, a:focus, a{ outline: none; text-decoration: none;}
 .tabs-area #pills-tab {background: #000;margin: 0 !important;}
 .tabs-area {padding:0 0 20px;}
 .tabs-area #pills-tab button {color: #fff;text-transform: uppercase;}
-.tabs-area #pills-tab button.active {border-radius: 0;background: #1b5d38;}
+.tabs-area #pills-tab button.active {border-radius: 0;background: #fc8c24;}
 .tabs-arrow ul {display: flex;align-items: center;list-style: none;justify-content: flex-end;margin: 0;}
 .tabs-arrow ul li a {display: block;max-width: 40px;}
 .tabs-arrow ul li a svg {width: 100%;height: auto;display: block;}
@@ -77,13 +77,25 @@ a:hover, a:active, a:focus, a{ outline: none; text-decoration: none;}
 
 /*testimonial area*/
 .testimonial-area {padding: 30px 0;background: #000;color: #fff;}
-.testimonial-area h2 {position: relative;font-size: 4.5rem;text-align: left;text-transform: uppercase;line-height: 5rem;margin: 0;letter-spacing: 0.1em;color: rgb(255 255 255 / 15%);font-weight: 700;}
+.testimonial-area h2 {position: relative;font-size: 2.5rem;text-align: left;text-transform: uppercase;line-height: 3rem;margin: 0;letter-spacing: 0.1em;color: rgb(255 255 255 / 15%);font-weight: 700;}
 .quote img {filter: contrast(0) brightness(2);}
 .quote {transform: rotate(180deg);width: 70px;}
 .testimonial {display: flex !important;align-items: baseline;}
 .testimonial blockquote {padding-left: 25px;max-width: calc(100% - 70px);}
 .testimonial blockquote h4 {margin: 15px 0 5px;}
+.testimonial-area h2:after {content: '';height: 1px;width: 100%;display: inline-block;background: #ffffff;}
 /*testimonial area end*/
+
+/*about us area*/
+.about-us-section {padding: 40px 0;}
+.about-us-section .row {align-items: center;}
+.about-us-content {padding-left: 50px;}
+.about-us-content h2 {font-size: 4.2rem;text-align: left;text-transform: uppercase;line-height: 4.8rem;margin: 10px 0;color: #65665f;font-weight: 700;}
+.about-us-content h2 span {display: block;color: #fc8c24;font-size: 5rem;}
+.about-img span {display: block;width: 60px;height: 50%;background: #fc8c24;position: absolute;left: 0;top: 50%;z-index: 1;}
+.about-img {position: relative;}
+/*end*/
+
 
 /*footer*/
 .upper-footer {background: #000;padding: 50px 0;color: #fff;}
@@ -122,5 +134,5 @@ a:hover, a:active, a:focus, a{ outline: none; text-decoration: none;}
 .blog-img img {width: 100%; -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);-webkit-border-radius: .25rem;border-radius: .25rem; margin-top: -20px;}
 .blog-img {padding: 0 15px;}
 .blog-section {padding: 30px 0;}
-.blog-section h2 {position: relative;font-size: 5rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #808080;font-weight: 700;margin-bottom:20px}
+.blog-section h2 {position: relative;font-size: 2.8rem;text-align: left;text-transform: uppercase;line-height: 5.5rem;margin: 0;letter-spacing: 0.1em;color: #000000;font-weight: 700;margin-bottom:20px;}
 /*end*/
