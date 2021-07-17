@@ -19,6 +19,15 @@ $(document).ready(function(){
         slidesToScroll: 1,
         arrows:false
     });
+    $('.testimonials-slider').slick({
+        autoplay:true,
+        autoplaySpeed: 4000,
+        speed:400,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false
+    })
 
 
     var tabEl = $('button[data-bs-toggle="tab"]');
