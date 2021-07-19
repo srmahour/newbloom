@@ -44,7 +44,8 @@ $(document).ready(function(){
         $('.right-slider, .left-slider').slick('refresh');
     });
 
+
+    AOS.init();
+
 });
-
-
 
